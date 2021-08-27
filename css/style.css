@@ -1,0 +1,43 @@
+
+.nav-bar{
+     display: flex;
+     margin: 40px;
+     background-color: yellow;
+}
+.logo-frame{
+     padding: 20px;
+     width: auto;
+     padding-left: 30px;
+     text-align: center;
+     background-color: blue;
+}
+.nav-bar a{
+     padding-top: 50px 50px;
+     margin: 20px;
+     background-color: #fff;
+}
+
+.main-page{
+     display: flex;
+     height: 500px;
+     background-color: #252420;
+
+}
+.page-text{
+     padding-left: 30px;
+     margin: 50px;
+     width: 500px;
+     height: 500px;
+     color: #fff;
+}
+.page-text p{
+     width: 500px;
+}
+.page-text button{
+     background-color: #FF7500;
+     width: 150px;
+     padding: 10px;
+     margin: 20px;
+     color: #fff;
+     border-radius: 3px;
+}
