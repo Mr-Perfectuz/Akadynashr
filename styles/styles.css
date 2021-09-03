@@ -1,3 +1,4 @@
+/* site header */
 .site-header {
      background-color: #fff;
 }
@@ -13,7 +14,7 @@
      text-decoration: none;
 
 }
-
+/* main lint  */
 .main-button{
      font-size: 13px;
      line-height: 15px;
@@ -23,6 +24,7 @@
 
      border-radius: 4px;
 }
+/* HERO  */
 .hero{
      background-color: #252420;
      color: #fff;
@@ -56,6 +58,8 @@
      letter-spacing: 0.5px;
 }
 
+/* FEATURES  */
+
 .features-heading{
      width: 440px;
      font-size: 72px;
@@ -85,6 +89,7 @@
      letter-spacing: 0.5px;
 }
 
+/* PRMOMO */
 .promo{
      background-color: rgba(37, 36, 32, 1);
      color: #fff;
@@ -111,6 +116,8 @@
      height: 440px;
      object-fit: cover;
 }
+
+/* SITE FOOTER */
 
 .site-footer{
      background-color: #F8F8F8;
