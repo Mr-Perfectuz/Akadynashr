@@ -1,0 +1,136 @@
+.site-header {
+     background-color: #fff;
+}
+.site-nav-list{
+     list-style: none;
+}
+.sitenav-link{
+     font-size: 13px;
+     line-height: 15px;
+     font-weight: 500;
+     letter-spacing: 1px;
+     text-transform: uppercase;
+     text-decoration: none;
+
+}
+
+.main-button{
+     font-size: 13px;
+     line-height: 15px;
+     color: #fff;
+     background-color: #FF7500;
+     text-decoration: none;
+
+     border-radius: 4px;
+}
+.hero{
+     background-color: #252420;
+     color: #fff;
+}
+
+.hero-content{
+     width: 390px;
+     float: left;
+     text-align:justify;
+     margin: 90px;
+}
+.orange-line{
+     width: 80px;
+     height: 1px;
+     background-color: #FF7500;
+}
+
+.hero-heading{
+     font-size: 40px;
+     line-height: 1.2;
+     letter-spacing: 0.5px;
+}
+.hero-image{
+     width: 510px;
+     height: 510px;
+}
+
+.hero-text{
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.5px;
+}
+
+.features-heading{
+     width: 440px;
+     font-size: 72px;
+     line-height: 1.2;
+     letter-spacing: 0.5px;
+
+}
+.feature{
+     width: 340px;
+}
+
+.feature-icon-wrapper{
+     width: 100px;
+     height: 100px;
+     background-color: rgba(255, 117, 0, 0.2);
+}
+
+.feature-title{
+     font-size: 24px;
+     line-height: 1.2;
+     letter-spacing: 0.5px;
+}
+
+.feature-info{
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.5px;
+}
+
+.promo{
+     background-color: rgba(37, 36, 32, 1);
+     color: #fff;
+}
+.promo-content{
+     width: 440px;
+}
+.promo-heading{
+     font-size: 40px;
+     font-weight: 48px;
+}
+
+.promo-text{
+     font-size: 16px;
+     line-height: 1.5;
+}
+
+.promo-highlight{
+     color: #FF7500;
+}
+
+.promo-image{
+     width: 440px;
+     height: 440px;
+     object-fit: cover;
+}
+
+.site-footer{
+     background-color: #F8F8F8;
+}
+
+.site-footer-divider{
+     height: 2px;
+     background-color: #25242080;
+}
+
+.site-footer ul {
+     list-style-type: none;
+}
+.site-footer-link-list{
+     width: 224px;
+}
+
+.site-footer-link-list a{
+     text-decoration: none;
+     color: #252420;
+     font-size: 16px;
+     line-height: 19px;
+}
