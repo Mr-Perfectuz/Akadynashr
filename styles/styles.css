@@ -7,9 +7,19 @@ body{
 }
 .site-header {
      background-color: #fff;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
 }
+
+.site-header-actions{
+     display: flex;
+     align-items: center;
+}
+/* sitenav  */
 .site-nav-list{
      list-style: none;
+     display: flex;
 }
 
 
@@ -41,8 +51,11 @@ body{
 }
 /* HERO  */
 .hero{
+     align-items: center;
      background-color: #252420;
      color: #fff;
+     display: flex;
+     justify-content: space-around;
 }
 
 .hero-content{
@@ -75,6 +88,14 @@ body{
      line-height: 1.2;
      letter-spacing: 0.5px;
      font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
+
+}
+
+.features-list{
+     display: flex;
+     justify-content: space-between;
+     list-style: none;
+     align-items: center;
 }
 .feature{
      width: 340px;
@@ -94,6 +115,8 @@ body{
 
 /* PRMOMO */
 .promo{
+     display: flex;
+     justify-content: space-around;
      background-color: rgba(37, 36, 32, 1);
      color: #fff;
 }
@@ -118,14 +141,31 @@ body{
 
 /* SITE FOOTER */
 
+.site-footer-top{
+     display: flex;
+     align-items: center;
+
+}
+
 .site-footer{
      background-color: #F8F8F8;
+}
+
+.site-footer-socials{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.site-footer-bottom{
+     display: flex;
 }
 
 .site-footer-divider{
      height: 2px;
      background-color: #25242080;
 }
+
 
 .site-footer ul {
      list-style-type: none;
