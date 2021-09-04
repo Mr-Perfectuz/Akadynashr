@@ -5,11 +5,29 @@ body{
      line-height:1.5 ;
      letter-spacing: 0.5px;
 }
+
+*:focus{
+     outline: 2px dotted #FF7500;
+     outline-offset: 3px;
+}
 .site-header {
+     padding-top: 16px;
+     padding-bottom: 16px;
+     border-top: 3px solid #FF7500;
      background-color: #fff;
      display: flex;
      align-items: center;
      justify-content: space-between;
+}
+
+.logo-link{
+     transition: opacity 0.4s, ease;
+}
+.logo-link:hover{
+     opacity: 0.8;
+}
+.logo-link:active{
+     opacity: 0.6;
 }
 
 .site-header-actions{
@@ -20,6 +38,7 @@ body{
 .site-nav-list{
      list-style: none;
      display: flex;
+     padding: 0;
 }
 
 
@@ -32,25 +51,42 @@ body{
      text-transform: uppercase;
      text-decoration: none;
      font-family: 'Roboto', sans-serif;
+     transition: color 0.4s ease,
+     opacity 0.4s ease;
 }
-
-.nav-head{
-     text-decoration:underline;
-     height: 3px;
+.sitenav-link:hover{
      color: #FF7500;
 }
+
+.sitenav-link:active{
+     opacity: 0.6;
+}
+
+
 /* main lint  */
 .main-button{
+     font-weight: bold;
+     display: inline-block;
+     padding: 12px 24px;
      font-size: 13px;
      line-height: 15px;
      color: #fff;
      background-color: #FF7500;
      text-decoration: none;
-
      border-radius: 4px;
+     transition: opacity 0.4s ease;
+}
+.main-button:hover{
+     opacity: 0.8;
+}
+
+.main-button:active{
+     opacity: 0.6;
 }
 /* HERO  */
 .hero{
+     padding-top: 80px;
+     padding-bottom: 80px;
      align-items: center;
      background-color: #252420;
      color: #fff;
@@ -65,6 +101,7 @@ body{
      margin: 90px;
 }
 .orange-line{
+     border: 0;
      width: 80px;
      height: 1px;
      background-color: #FF7500;
@@ -78,6 +115,7 @@ body{
 .hero-image{
      width: 510px;
      height: 510px;
+     border-radius: 8px;
 }
 
 /* FEATURES  */
@@ -90,8 +128,12 @@ body{
      font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
 
 }
-
+.features{
+     padding-top: 210px;
+     padding-bottom: 210px;
+}
 .features-list{
+     padding: 0;
      display: flex;
      justify-content: space-between;
      list-style: none;
@@ -102,6 +144,10 @@ body{
 }
 
 .feature-icon-wrapper{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 50%;
      width: 100px;
      height: 100px;
      background-color: rgba(255, 117, 0, 0.2);
@@ -115,6 +161,7 @@ body{
 
 /* PRMOMO */
 .promo{
+     border-radius: 12px;
      display: flex;
      justify-content: space-around;
      background-color: rgba(37, 36, 32, 1);
@@ -134,6 +181,7 @@ body{
 }
 
 .promo-image{
+     border-radius: 12px;
      width: 440px;
      height: 440px;
      object-fit: cover;
@@ -149,19 +197,35 @@ body{
 
 .site-footer{
      background-color: #F8F8F8;
+     padding-top: 56px;
+     padding-bottom: 56px;
+
 }
 
 .site-footer-socials{
+     justify-content: space-evenly;
+     padding: 0;
      display: flex;
-     justify-content: space-between;
      align-items: center;
+
 }
 
+.site-footer-socials a{
+     color: #252420;
+     padding: 0;
+}
+.site-footer-socials a:hover{
+     color: #FF7500;
+}
+.site-footer-socials a:active{
+     opacity: 0.6;
+}
 .site-footer-bottom{
      display: flex;
 }
 
 .site-footer-divider{
+     border: 0;
      height: 2px;
      background-color: #25242080;
 }
@@ -179,4 +243,12 @@ body{
      text-decoration: none;
      color: #252420;
      line-height: 19px;
+}
+
+.site-footer-link-list a:hover{
+     color: #FF7500;
+}
+
+.site-footer-link-list a:active{
+     opacity: 0.6;
 }
